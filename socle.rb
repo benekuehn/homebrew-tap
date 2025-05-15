@@ -11,7 +11,7 @@ class Socle < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/benekuehn/socle/releases/download/v0.1.0-alpha.2/socle_0.1.0-alpha.2_darwin_amd64.tar.gz"
-    sha256 "ea9d069e2a91cea2017e6f5917c83a9a41817ee614b11e209ca735c9c74a15a6"
+    sha256 "a5d7a7b64dfa5df17ae2de9e82e94ec286e5131fb5726a5fbd5771e1faaf88d3"
 
     def install
       bin.install "so"
@@ -19,7 +19,7 @@ class Socle < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/benekuehn/socle/releases/download/v0.1.0-alpha.2/socle_0.1.0-alpha.2_darwin_arm64.tar.gz"
-    sha256 "d2079cb2b411760e29e0c6907a3bc2609dacf619e144e442103c9a772cbb873e"
+    sha256 "7b5478fa9a0e869f7ab3a201852f80e9767fab74a9a606a6e8253ca868659660"
 
     def install
       bin.install "so"

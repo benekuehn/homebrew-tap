@@ -5,21 +5,21 @@
 class Socle < Formula
   desc "CLI tool for managing stacked Git branches"
   homepage "https://github.com/benekuehn/socle"
-  version "0.1.0-alpha.20"
+  version "0.1.0-alpha.21"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/benekuehn/socle/releases/download/v0.1.0-alpha.20/socle_0.1.0-alpha.20_darwin_amd64.tar.gz"
-    sha256 "b6079261c817ad6a11cf2dd0aa9c269cb6f42a4805246a67eec9a73e8ee1e7bf"
+    url "https://github.com/benekuehn/socle/releases/download/v0.1.0-alpha.21/socle_0.1.0-alpha.21_darwin_amd64.tar.gz"
+    sha256 "b2a81411b8fa4b9b6b91db8202c5e5056aa2419f24605b3796039c4e440a7f48"
 
     define_method(:install) do
       bin.install "so"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/benekuehn/socle/releases/download/v0.1.0-alpha.20/socle_0.1.0-alpha.20_darwin_arm64.tar.gz"
-    sha256 "3122bb4c36a41ecfbd4c5bee9a5eef964bb2c6a797d680a6c39aa19f5b418e6f"
+    url "https://github.com/benekuehn/socle/releases/download/v0.1.0-alpha.21/socle_0.1.0-alpha.21_darwin_arm64.tar.gz"
+    sha256 "c0b300b489b43b8a9a50371328510e3a4e4fdee43d4171e510c800702e019cbf"
 
     define_method(:install) do
       bin.install "so"

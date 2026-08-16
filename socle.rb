@@ -7,6 +7,8 @@ class Socle < Formula
   homepage "https://github.com/benekuehn/socle"
   version "0.1.0-alpha.22"
   license "MIT"
+  deprecate! date:    "2026-08-16",
+             because: "is discontinued; use GitHub Stacks instead (`gh extension install github/gh-stack`)"
   depends_on :macos
 
   if Hardware::CPU.intel?
